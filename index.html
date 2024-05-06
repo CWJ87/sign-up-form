@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <form action="#">
+        <figure class="form-image">
+            <img src="./images/odin-lined.png" alt="odin logo">
+            <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="leafy background">
+            <figcaption>Photo by Halie West on Unsplash</figcaption>
+        </figure>
+        <div class="form-details">
+            <div class="service-info">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="sign-up">
+                <h2>Let's do this!</h2>
+                <div class="form-controls">
+                    <div class="form-group">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" required>
+                        <small class="error-message"></small> 
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name">
+                        <small class="error-message"></small>                         
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                        <small class="error-message"></small>                        
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        <small class="error-message"></small>                        
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password">
+                        <small class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password">
+                    </div>
+                </div>
+            </div>
+            <div class="access-control">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </form>   
+</body>
+</html>
