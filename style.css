@@ -83,6 +83,7 @@ figcaption {
 
 .service-info p:nth-child(1) {
     margin-bottom: 20px;
+    width: 75%;    
 }
 
 .service-info p:nth-child(2) {
@@ -100,6 +101,7 @@ figcaption {
 .form-controls {
     display: flex;
     flex-wrap: wrap;    
+    width: 75%;    
 }
 
 .form-group {
@@ -117,9 +119,8 @@ figcaption {
 }
 
 .form-group input {
-    width: 80%;
-    padding: 5px 10px;
-    font-size: 0.9rem;    
+    width: 75%;
+    padding: 5px 10px;    
 }
 
 .access-control {
