@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="sign-up-form.js" defer></script>
     <title>Sign-up Form</title>
 </head>
 <body>
-    <form action="#">
+    <form>
         <figure class="form-image">
             <div class="odin-logo">
                 <img src="./images/odin-lined.png" alt="odin logo">
@@ -26,37 +27,38 @@
                 <div class="form-controls">
                     <div class="form-group">
                         <label for="first-name">FIRST NAME *</label>
-                        <input type="text" id="first-name" required>
+                        <input type="text" id="first-name">
                         <small class="error-message"></small> 
                     </div>
 
                     <div class="form-group">
                         <label for="last-name">LAST NAME *</label>
-                        <input type="text" id="last-name" required>
+                        <input type="text" id="last-name">
                         <small class="error-message"></small>                         
                     </div>
 
                     <div class="form-group">
                         <label for="email">EMAIL *</label>
-                        <input type="email" id="email" required>
+                        <input type="email" id="email">
                         <small class="error-message"></small>                        
                     </div>
 
                     <div class="form-group">
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <input type="tel" id="phone-number">
                         <small class="error-message"></small>                        
                     </div>
 
                     <div class="form-group">
                         <label for="password">PASSWORD *</label>
-                        <input type="password" id="password" required>
+                        <input type="password" id="password">
                         <small class="error-message"></small>
                     </div>
 
                     <div class="form-group">
                         <label for="confirm-password">CONFIRM PASSWORD *</label>
-                        <input type="password" id="confirm-password" required>
+                        <input type="password" id="confirm-password">
+                        <small class="error-message"></small>
                     </div>
                 </div>
             </div>
